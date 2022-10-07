@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(33, 71, 59);
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home {
+    background-color: white;
+}
+#childhood section{
+    background-color: rgb(229, 255, 0);
+    display: flex;
+    justify-content: space-between;
+}
+#childhood img{
+    box-sizing: border-box;
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+}
+#gallery {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+#gallery img {
+    box-sizing: border-box;
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+}
